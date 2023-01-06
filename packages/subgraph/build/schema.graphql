@@ -1,0 +1,64 @@
+type CallForFunding @entity {
+  # address of the proxy
+  id: ID!
+
+  creator: User!
+
+  title: String!
+
+  description: String!
+
+  image: String
+
+  category: String!
+
+  genre: String!
+
+  subgenre: String!
+
+  timelineInDays: BigInt!
+
+  minFundingAmount: BigInt!
+
+  deliverableMedium: String!
+
+  deliverableURI: String
+
+  deliverableToken: String
+
+  fundingState: Int!
+
+  contributions: [Contribution!]! @derivedFrom(field: "callForFunds")
+  # reset at the end of every round
+  currentRoundFundsReceived: BigInt!
+
+  lifetimeFundsReceived: BigInt!
+
+  videoUri: String
+
+  timestamp: BigInt!
+}
+
+type User @entity {
+  # address of the user
+  id: ID!
+
+  callsForFunds: [CallForFunding!]! @derivedFrom(field: "creator")
+
+  contributions: [Contribution!]! @derivedFrom(field: "user")
+}
+
+type Contribution @entity {
+  # `${callForFundingAddr-userAddr}
+  id: ID!
+
+  callForFunds: CallForFunding!
+
+  user: User!
+
+  amount: BigInt!
+
+  timestamp: BigInt!
+
+  txHash: Bytes!
+}

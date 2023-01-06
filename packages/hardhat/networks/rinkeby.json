@@ -1,0 +1,9 @@
+{
+  "Contracts": {
+    "logic": "0xE29bd03397133ed262150f8Cc561c70c59ddd39e",
+    "factory": "0x185D72d002B44D74f22cCb5e16FffF66A817C519",
+    "crowdCommission": "0x03e32A69234736fEE0596F36bA313a52c015A2Ba",
+    "smartArt": "0xce829dF9736cB86FDD27eE05C3a2dC719CA3Fe19",
+    "bonusFunder": "0x26bd940DC85ab3AB43f15a107Cb13FE8733F650D"
+  }
+}
