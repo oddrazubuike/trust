@@ -1,7 +1,5 @@
-# LOUDVΞRSΞ
-_Be seen. Be heard. Be experienced._
 
-LOUDVERSE is a 2-sided marketplace for funding hard-to-quantify public goods like music, poetry, and theater.
+TRUST is a marketplace for funding hard-to-quantify public goods like music, poetry, and theater.
 
 ### [Watch the demo video](https://www.dropbox.com/sh/cizir6uy73hzof5/AADIp7qNw-t7ywOOeZ3W6Pyma?dl=0)
 
@@ -13,8 +11,6 @@ LOUDVERSE is a 2-sided marketplace for funding hard-to-quantify public goods lik
 🧾 _**Double Constrained Quadratic Funding**_ calculates matching funds with both a fixed subsidy pool and minimum viable funding goals. 
 
 🎨 _**Smart-Art**_ is an ERC721 NFT that shares financial upside with collaborators and contributors using a royalty allocation table
-
-### [Read the whitepaper](https://github.com/neodaoist/loudverse/blob/main/dcqf_whitepaper.pdf)
 
 ## 🚀 Continuation since the in-person BUIDLathon
 1) Switched funding token from ETH to DAI
@@ -35,12 +31,4 @@ LOUDVERSE is a 2-sided marketplace for funding hard-to-quantify public goods lik
 - **Rarible** — we did a lot of testing and iteration using rinkeby.rarible.com to ensure data/metadata looks clean
 - **MetaMask** — we recorded Creator onboarding videos show simple and clear MM usage for funding wallet, confirming a tx, contributing to a Call For Funds, open a money stream, and minting an NFT
 - **UnstoppableDomains** — we began prototyping extended support beyond ENS for other Crypto TLDs, something which in our user discovery the Creators said they would like to have a choice of!
-- Slice.so
 
-## Team
-- [neodaoist](https://github.com/neodaoist/)
-- [plaird523](https://github.com/plaird523)
-- [nickadamson](https://github.com/nickadamson)
-- [Just John](https://github.com/dlsso)
-
-## 🌴🌱🌲 Join us at LOUDVΞRSΞ and help artists ship creative work! 💚🌿🍀 
