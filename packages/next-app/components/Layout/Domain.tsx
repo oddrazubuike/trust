@@ -60,9 +60,9 @@ const ResolveDomain = () => {
        Discover Domains
       </button>
       {showModal ? (
-        <div className="fixed top-0 left-0 bottom-0 right-0 bg-black/[0.5] flex justify-center text-center z-1">
-          <div className="bg-white pt-2 pb-8 px-10 rounded-3xl h-fit text-black self-center">
-            <h2 className="text-xl font-bold p-5">Enter Domain name</h2>
+        <div className="fixed top-80px left-0  right-0 bg-white/[0.5] flex justify-center text-center z-1">
+          <div className="bg-white pt-2 pb-2 px-10 rounded-3xl h-fit text-black self-center">
+            <h2 className="text-l font-bold p-5">Enter Domain name</h2>
 
             <div className="mb-2 flex flex-col">
               <label
@@ -80,7 +80,7 @@ const ResolveDomain = () => {
 
             {/* <p className="text-red-400 mb-6 text-xs">Disabled inputs are highlighted in red.</p> */}
             <button
-              className="text-lg font-semibold bg-black text-white py-3 px-8 self-start mx-3 mt-4 border-none rounded-full disabled:bg-gray-800 disabled:text-gray-100"
+              className="text-lg font-meduim bg-black text-white py-3 px-8 self-start mx-3 mt-4 border-none rounded-full disabled:bg-gray-800 disabled:text-gray-100"
               onClick={(e) => {handleSubmit(e); hide()}}
               disabled={submitted}
             >
@@ -95,9 +95,9 @@ const ResolveDomain = () => {
             </button>
           </div>
         </div>
-      ) : (submitted && <div className="fixed top-0 left-0 bottom-0 right-0 bg-black/[0.5] flex justify-center text-center z-1">
+      ) : (submitted && <div className="fixed top-150px left-0 right-0 bg-white/[0.5] flex justify-center text-center z-1">
             <div className="bg-white pt-2 pb-8 px-10 rounded-3xl h-fit text-black self-center">
-              <h2 className="text-xl font-bold p-5">Resolve Domain</h2>
+              <h2 className="text-l font-bold p-5">Resolve Domain</h2>
 
               <div className="mb-2 flex flex-col">
       
