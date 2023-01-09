@@ -1,9 +1,6 @@
 
 TRUST is a marketplace for funding hard-to-quantify public goods like music, poetry, and theater.
 
-### [Watch the demo video](https://www.dropbox.com/sh/cizir6uy73hzof5/AADIp7qNw-t7ywOOeZ3W6Pyma?dl=0)
-
-### [Try the dapp](https://loudverse.xyz)
 
 ## Some behind-the-scenes
 ✍️ _**Crowd-Commissions**_ are ERC1155 non-transferrable tokens representing "proof of patronage”
@@ -11,12 +8,6 @@ TRUST is a marketplace for funding hard-to-quantify public goods like music, poe
 🧾 _**Double Constrained Quadratic Funding**_ calculates matching funds with both a fixed subsidy pool and minimum viable funding goals. 
 
 🎨 _**Smart-Art**_ is an ERC721 NFT that shares financial upside with collaborators and contributors using a royalty allocation table
-
-## 🚀 Continuation since the in-person BUIDLathon
-1) Switched funding token from ETH to DAI
-2) Added creator video streaming option to Calls For Funds
-3) Added configurable maximum match amount to quadratic funding mechanism
-4) Deployed to Polygon to run an invite-only, real-money round 🙌🙌🙌🙌
 
 ### Technologies used
 - **Ethereum** =)
